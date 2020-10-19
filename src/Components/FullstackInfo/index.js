@@ -5,7 +5,7 @@ const FullstackInfo = () => {
         <section className="fullstack-info">
             <p>Fullstack<br/>веб-разработчик</p>
 
-            <span className="html-css-javascript">HTML    CSS    Javascript    Typescript    React    JS    Node JS    Express JS    MongoDB    Mongoose JS</span>
+            <span className="html-css-javascript">HTML    CSS    Javascript    Typescript    React JS    Node JS    Express JS    MongoDB    Mongoose JS</span>
 
             <a href="#" className="fullstack-free-button">Начать онлайн курс бесплатно</a>
 
