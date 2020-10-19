@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+html,
+body,
+p {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-container {
+  margin: 0 120px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fullstack-info p {
+  color: #000000;
+  font-family: GolosText;
+  font-size: 70px;
+  line-height: 72px;
+  font-weight: 900;
+  width: 640px;
+  text-align: left;
+  margin: 0;
+  word-wrap: normal;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fullstack-info .html-css-javascript {
+  display: inline-block;
+  color: #000000;
+  font-family: GolosText;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  white-space: pre-wrap;
+  margin: 24px 0;
+}
+.fullstack-info .fullstack-free-button {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 286px;
+  height: 60px;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-family: GolosText;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  background-color: #024FEB;
+  border: none;
+}
+.fullstack-info .rocket-container {
+  position: absolute;
+  top: 24px;
+  right: 240px;
+  width: 301px;
+  height: 456px;
+}
+.fullstack-info .rocket-container > img {
+  width: 183px;
+  height: 406px;
+  display: block;
+  margin: 25px auto;
 }
 
-.App-link {
-  color: #61dafb;
+.fullstack-description .price-and-date {
+  height: 71px;
+  margin-top: 61px;
+  margin-bottom: 48px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fullstack-description .video-container {
+  width: 960px;
+  height: 540px;
+  margin: 48px auto;
+  border-radius: 10px;
+}
+.fullstack-description .video-about {
+  width: 100%;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fullstack-3-in-1,
+.for-3-in-1 {
+  display: flex;
+  justify-content: space-between;
 }
+
+.descript-block {
+  margin: 0;
+}
+
+.descript-caption {
+  color: #000000;
+  font-family: GolosText;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 16px;
+  width: 360px;
+}
+
+.height64 {
+  height: 64px;
+}
+
+.descript-text {
+  color: #000000;
+  font-family: GolosText;
+  font-size: 15px;
+  line-height: 24px;
+  width: 360px;
+  text-align: left;
+}
+
+.fullstack-for .for-caption {
+  color: #19191A;
+  font-family: GolosText;
+  font-size: 44px;
+  line-height: 48px;
+  text-align: center;
+  margin: 0 auto 63px;
+}
+.fullstack-for .for-container {
+  width: 128px;
+  height: 128px;
+}
+.fullstack-for .first-img {
+  width: 106px;
+  height: 88px;
+  margin: 20px auto;
+}
+.fullstack-for .second-img {
+  width: 106px;
+  height: 104px;
+  margin: 12px auto;
+}
+.fullstack-for .third-img {
+  width: 108px;
+  height: 123px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=App.css.map */
