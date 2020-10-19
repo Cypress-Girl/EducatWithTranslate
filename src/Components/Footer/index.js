@@ -1,20 +1,24 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import {LangContext} from "../../data/translate";
 
 const Footer = () => {
+
+    const ctx = useContext(LangContext);
+
     return(
         <footer>
             <div className="footer-top">
-                <p>Стань профессионалом в веб-разработке</p>
-                <a href="#">Начать бесплатно</a>
+                <p>{ctx.lang.FOOTER.become}</p>
+                <a href="#">{ctx.lang.FOOTER.start_free}</a>
             </div>
             <div className="footer-bottom">
-                <a href="./index.html" className="logo">
+                <a href="/" className="logo">
                     <img src="/images/Group 23x.png"/>
                 </a>
                 <div className="menu-bottom">
-                    <a href="#">Контакты</a>
-                    <a href="#">Политика конфиденциальности</a>
-                    <a href="#">Условия предоставления услуг</a>
+                    <a href="#">{ctx.lang.FOOTER.contacts}</a>
+                    <a href="#">{ctx.lang.FOOTER.privacy}</a>
+                    <a href="#">{ctx.lang.FOOTER.terms}</a>
                 </div>
             </div>
         </footer>

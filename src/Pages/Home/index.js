@@ -1,7 +1,7 @@
 import React from 'react'
-import FullstackInfo from "../../Components/FullstackInfo";
-import FullstackDescription from "../../Components/FullstackDescription";
-import FullstackFor from "../../Components/FullstackFor";
+import FullstackInfo from "../../components/FullstackInfo";
+import FullstackDescription from "../../components/FullstackDescription";
+import FullstackFor from "../../components/FullstackFor";
 
 const Home = () => {
     return (

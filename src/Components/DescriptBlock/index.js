@@ -5,7 +5,7 @@ const DescriptBlock = (props) => {
 
     let img = (props.img) ?
         (<div className="for-container">
-            {props.img}
+            <img src={props.img} alt='img' className={props.className} />
         </div>) :
         null;
 

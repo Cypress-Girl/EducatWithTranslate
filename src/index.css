@@ -19,6 +19,7 @@ header {
 header .lang {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 header .lang span {
   padding-left: 10px;
