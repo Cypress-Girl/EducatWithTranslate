@@ -16,17 +16,47 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-header .lang {
+header #lang-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+header #lang-container #langLogo {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
-header .lang span {
+header #lang-container #langLogo span {
   padding-left: 10px;
   color: #024FEB;
   font-family: Inter;
   font-size: 15px;
   line-height: 24px;
+  user-select: none;
+}
+header #lang-container #langSelector {
+  width: 74px;
+  height: 64px;
+  position: absolute;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 8px 0 #CACBCC;
+}
+header #lang-container #langSelector span {
+  width: 100%;
+  height: 50%;
+  color: #024FEB;
+  text-align: center;
+  padding-top: 3px;
+  font-family: Inter;
+  font-size: 15px;
+  line-height: 24px;
+  cursor: pointer;
+}
+header #lang-container #langSelector span:first-child {
+  border-bottom: 1px solid #CACBCC;
 }
 
 .logo {

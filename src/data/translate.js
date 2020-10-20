@@ -1,5 +1,8 @@
 import React from 'react';
 
+export const CONST_RU = 0;
+export const CONST_EN = 1;
+
 export const LangContext = React.createContext(null);
 
 export const translate = {

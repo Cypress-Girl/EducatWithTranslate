@@ -3,7 +3,7 @@ import './App.css';
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
-import {LangContext, translate} from "./data/translate";
+import {CONST_EN, LangContext, translate} from "./data/translate";
 
 class App extends React.Component {
     constructor(props) {
@@ -14,8 +14,8 @@ class App extends React.Component {
         }
     }
 
-    changeLanguage = () => {
-        let newLang = this.state.lang === translate.RU ? translate.EN : translate.RU;
+    changeLanguage = (lang) => {
+        let newLang = lang === CONST_EN ? translate.EN : translate.RU;
         this.setState({
             lang: newLang,
         });

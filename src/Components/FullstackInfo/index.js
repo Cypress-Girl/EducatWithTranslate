@@ -11,10 +11,10 @@ const FullstackInfo = () => {
 
             <span className="html-css-javascript">HTML    CSS    Javascript    Typescript    React JS    Node JS    Express JS    MongoDB    Mongoose JS</span>
 
-            <a href="#" className="fullstack-free-button">{ctx.lang.HOME.online_free}</a>
+            <a href="/" className="fullstack-free-button">{ctx.lang.HOME.online_free}</a>
 
             <div className="rocket-container">
-                <img src="/images/Group3x.png"/>
+                <img src="/images/Group3x.png" alt="rocket"/>
             </div>
         </section>
     )
