@@ -33,7 +33,7 @@ const Header = () => {
                     <img src="/images/Group 10.svg" alt="lang"/>
                     <span>{ctx.lang.HEADER.lang}</span>
                 </figure>
-                <figure id="langSelector">
+                <figure id="langSelector" style={{display: "none"}}>
                     <span onClick={() => selectLanguage(CONST_RU, ctx)}>RU</span>
                     <span onClick={() => selectLanguage(CONST_EN, ctx)}>EN</span>
                 </figure>

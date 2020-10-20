@@ -54,8 +54,10 @@ export const translate = {
                 }
             ],
 
-
+            play: "Смотреть видео",
+            video_info: "В этом видео основатель онлайн-школы EDUCAT Александр Мазуркевич расскажет о курсе, о том какие перспективы ждут выпускников курса Full Stack, и опыте, который получит студент во время курса."
         },
+
         FOOTER: {
             become: "Стань профессионалом в веб-разработке",
             contacts: "Контакты",
@@ -112,8 +114,11 @@ export const translate = {
                     text: "You may already be our colleagues, but from another area of development. This course will allow you to learn modern frameworks and methods for developing client-server web applications.",
                 }
             ],
+            play: "To watch video",
+            video_info: "In this video, the founder of the online school EDUCAT Alexander Mazurkevich will talk about the course, what prospects await graduates of the Full Stack course, and the experience that the student will receive during the course."
 
         },
+
         FOOTER: {
             become: "Become a Web Development Professional",
             contacts: "Contacts",
